@@ -7,7 +7,6 @@ function repeat( fn, n ) {
     }
 }
 
-
 const hello = () => console.log('Hello world');
 
 const hi = (name) => {
