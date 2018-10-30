@@ -12,6 +12,7 @@ function filter(arr, fn) {
   return newArray;
 }
 
+
 // DO NOT EDIT BETWEEN THESE LINES, BUT DO READ THE CODE ----->
 // First we setup an array of strings we plan to filter:
 const myNames = ['Rich', 'Joe', 'Bhaumik', 'Ray'];
@@ -26,3 +27,8 @@ const filteredNames = filter(myNames, function(name) {
 
 console.log(filteredNames) // => ['Rich', 'Ray']
 // <---- DO NOT EDIT BETWEEN THESE LINES
+
+
+//bonus:
+console.log(filter(myNames, name => name[0] === 'R'));
+//we pass in myNames, and the function which sees if the name starts with R
