@@ -10,4 +10,6 @@ const totalMovements = turtleMovements.map(movement => Math.abs(movement[0])+ Ma
 
 console.log(totalMovements);
 
-const totalSteps = totalMovements.forEach()
+totalMovements.forEach(element => {
+    console.log(element);
+});
