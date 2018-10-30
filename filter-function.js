@@ -25,10 +25,11 @@ const filteredNames = filter(myNames, function(name) {
   return name[0] === 'R';
 });
 
-console.log(filteredNames) // => ['Rich', 'Ray']
+console.log(filteredNames); // => ['Rich', 'Ray']
 // <---- DO NOT EDIT BETWEEN THESE LINES
 
 
 //bonus:
 console.log(filter(myNames, name => name[0] === 'R'));
-//we pass in myNames, and the function which sees if the name starts with R
+//we pass in myNames, and the function (which sees if the name starts with R). Then in filter(), we pass into that fn
+
