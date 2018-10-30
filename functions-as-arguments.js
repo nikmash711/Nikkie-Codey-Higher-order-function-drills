@@ -4,9 +4,9 @@ function repeat( fn, n ) {
     }
 }
 
-function hello() {
-    console.log('Hello world');
-}
+
+var hello = () => console.log('Hello world');
+
 
 function goodbye() {
     console.log('Goodbye world');
