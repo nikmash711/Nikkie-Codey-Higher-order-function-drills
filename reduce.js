@@ -4,13 +4,12 @@ const words = input.split(" ");
 
 const reducer = ( decodedMessage, word ) => {
     if( word.length === 3 ) {
-        decodedMessage += ' ';
+        return decodedMessage + ' ';
     }
     else {
-       decodedMessage += word[word.length -1].toUpperCase();
+      return decodedMessage += word[word.length -1].toUpperCase();
     }
 
-    return decodedMessage;
 }
 
 // reducer function -> .reduce( function , starting value );
